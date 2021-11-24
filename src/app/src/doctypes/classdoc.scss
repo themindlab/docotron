@@ -1,0 +1,35 @@
+.argtable {
+
+    .header {
+        background-color: #333;
+        color: #ffffff;
+        text-align: left;
+        
+    }
+
+    
+    background-color: #777;
+    border-collapse: collapse;
+    margin: 25px, 0;
+    
+    font-family: sans-serif;
+    min-width: 400px;
+
+    td {
+        padding: 5px;
+    }
+
+    th {
+        padding: 5px;
+    }
+    
+}
+
+.syntax {
+    font-size: 1.5em;
+
+    .output {
+        color: #555;
+    }
+}
+

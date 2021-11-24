@@ -1,0 +1,41 @@
+{
+    "doc_type": "class",
+    "classname": "DIfferentClass",
+    "description": "It's another property that has stuff that \r\n    runs across multiple lines",
+    "methods": [
+      {
+        "syntax": "getValue(max, min)",
+        "args": [
+          { "name": "max", "type": "integer", "description": "the maximum value it can take" },
+          { "name": "min", "type": "integer", "description": "the mininum value it can take" }
+        ],
+        "return": "integer",
+        "description": "returns an interger"
+      },
+      {
+        "syntax": "setValue(x)",
+        "args": [
+          { "name": "x", "type": "integer", "description": "the value you want to set" }
+        ],
+        "return": "null",
+        "description": "sets the internal value"
+      },
+      {
+        "syntax": "doTheThing(x)",
+        "args": [
+          { "name": "x", "type": "integer", "description": "the value you want to set" }
+        ],
+        "return": "null",
+        "description": "sets the internal value"
+      }
+
+    ],
+    "static_methods": [],
+    "constructor": {
+      "syntax": "new DifferentClass(arg1, arg2)",
+      "args": [
+        { "name": "arg1", "type": "integer", "description": "the maximum value it can take" },
+        { "name": "arg2", "type": "integer", "description": "the mininum value it can take" }
+      ]
+    }
+  }

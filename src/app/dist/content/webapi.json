@@ -1,0 +1,34 @@
+{
+    "doc_type": "webapi",
+    "service": "Bandicoot-Server",
+    "description": "Documents the API methods available to bandicoot",
+    "api_root": "http://api.themindlab/bandicoot-server",
+    "methods": [
+      {
+        "url": "/experient/<experiment_id>/create",
+        "params": [
+          { "name": "max", "type": "integer", "description": "the maximum value it can take" },
+          { "name": "min", "type": "integer", "description": "the mininum value it can take" }
+        ],
+        "returns": "the experiment ID",
+        "description": "creates an experiment"
+      },
+      {
+        "url": "/experient/<experiment_id>/create",
+        "params": [
+          { "name": "x", "type": "integer", "description": "the value you want to set" }
+        ],
+        "returns": "null",
+        "description": "sets the internal value"
+      },
+      {
+        "url": "/experient/<experiment_id>/create",
+        "params": [
+          { "name": "x", "type": "integer", "description": "the value you want to set" }
+        ],
+        "returns": "null",
+        "description": "sets the internal value"
+      }
+
+    ]
+  }

@@ -1,0 +1,6 @@
+{
+    "type": "module",
+    "pages": [
+        { "src": "./README.md", "title": "overview" }
+    ]
+}

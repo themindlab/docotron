@@ -1,0 +1,25 @@
+{
+    "title": "Mindlab documentation",
+    "menu": [
+        { 
+            "type": "item",
+            "src": { "type": "markdown", "ref": "def" },
+            "title": "Introduction" 
+        },
+        { 
+            "type": "header", 
+            "title": "Repositories"
+        },
+        {
+            "type": "item",
+            "src": { "type": "markdown", "ref": "abc" },
+            "title": "Manatee Core"
+        },
+        {
+            "type": "item",
+            "src": { "type": "docfile", "ref": "inner"},
+            "title": "Manatee"
+        }
+    ]
+    
+}

@@ -1,0 +1,8 @@
+{
+    "type": "repository",
+    "name": "Docotron",
+    "pages": [
+        { "src": "./README.md" },
+        { "src": "./facts.html" }
+    ]
+}

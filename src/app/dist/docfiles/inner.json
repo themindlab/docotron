@@ -1,0 +1,34 @@
+{
+    "title": "Mindlab documentation",
+    "menu": [
+        { 
+            "type": "item",
+            "src": { "type": "markdown", "ref": "def" },
+            "title": "Overview" 
+        },
+        { 
+            "type": "header", 
+            "title": "Container API"
+        },
+        { 
+            "type": "item",
+            "src": { "type": "content", "ref": "webapi" },
+            "title": "Bandicoot API" 
+        },
+        { 
+            "type": "header", 
+            "title": "Classes"
+        },
+        {
+            "type": "item",
+            "src": { "type": "content", "ref": "classdoc" },
+            "title": "SuperClass"
+        },
+        {
+            "type": "item",
+            "src": { "type": "content", "ref": "classdoc2" },
+            "title": "DifferentClass"
+        }
+    ]
+    
+}
