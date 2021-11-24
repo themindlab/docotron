@@ -174,12 +174,44 @@ class MyClass extends Superclass {
 ~~~js
 /*
     !docotron: function
+    ref: lets-go-function
     name: letsGo
-    param[arg1]: it's the first input argument
-    param[arg2]: another one
     description: `letsGo` hey, ho.
+    param[arg1] <integer>: it's the first input argument
+    param[arg2] <string>: another one
+    returns <object>: loads of stuff 
 */
 function letsGo(arg1, arg2){
     // do something cool
 }
+~~~
+
+
+#### Documenting API routes
+
+Here we make the assumption that most times our server routes should wrap a controller method however we can omit that information if required.
+
+~~~js
+/*
+    !docotron: api-route
+    method: post
+    url: /experiment/<experiment_id>/create
+    description: Use this URL to create an experiment
+    payload: {
+        name<string>,
+        other<integer>
+    }
+    params[participant_id]: injects the participant ID into the session
+    returns <integer>
+    status[400]: { reason<string> } Can fail because the participant id is already in use
+    status[500]: { reason<string> } The application totally fucked up
+    controller: {
+        syntax: letsGo(participant_id),
+        $ref: lets-go-function
+    }
+    
+*/
+express.use('/experiment/<experiment_id>/start', (req, res) => {
+    // awesome stuff
+})
 ~~~
