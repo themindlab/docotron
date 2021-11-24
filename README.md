@@ -215,3 +215,16 @@ express.use('/experiment/<experiment_id>/start', (req, res) => {
     // awesome stuff
 })
 ~~~
+
+
+#### Documenting Container Configuration
+
+
+~~~js
+/*
+    !docotron: environment-variable
+    name: ENABLE_DEBUG
+    description: Set to true to enable debugging
+*/
+const enable_debugging = process.env.ENABLE_DEBUG
+~~~
