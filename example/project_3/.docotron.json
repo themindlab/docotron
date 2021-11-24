@@ -1,0 +1,7 @@
+{
+    "type": "package",
+    "description": {
+        "src": "./README.md",
+        "files": "./R"
+    }
+}
