@@ -154,7 +154,7 @@ class MyClass extends Superclass {
     /*
         !docotron: method
         name: goForIt
-        syntax: instance.goForIt(arg)
+        syntax: instance.goForIt()
         description: it goes for it!
     */
     goForIt(){

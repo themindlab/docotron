@@ -5,7 +5,6 @@
     runs across multiple lines
 
     VALUE:: Another one again
-    
 */
 
 class SuperClass {

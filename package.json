@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "test:file": "mocha --reporter spec -b --exit",
     "build_example": "node ./src/index.js generate ./example/.docotron.json ./output",
     "start_example": "webpack serve --config ./src/app/webpack.config.js --mode development"
   },
@@ -21,7 +22,11 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.16.0",
+    "chai": "^4.3.4",
     "css-loader": "^6.5.1",
+    "doctrine": "^3.0.0",
+    "jsonschema": "^1.4.0",
+    "mocha": "^9.1.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-markdown": "^7.1.0",

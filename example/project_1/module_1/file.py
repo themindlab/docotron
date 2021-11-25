@@ -1,8 +1,8 @@
 
 
 """
-    DOCOTRON:: class
-    CLASSNAME:: PythonClass
+    !docotron: class
+    @name: PythonClass
 """
 class PythonClass:
 
@@ -19,3 +19,5 @@ class PythonClass:
     """
     def super(self, args):
         pass
+
+    

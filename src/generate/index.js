@@ -1,6 +1,6 @@
 const path = require('path')
-const buildJson = require('./buildJson')
 const fs = require('fs')
+const buildDoc = require('./buildDoc')
 
 module.exports = function(config_path, output_path){
     if(!config_path){
@@ -16,10 +16,12 @@ module.exports = function(config_path, output_path){
             console.error(`cannot find config: ${full_path}`)
             process.exit(1)
         }
-        const config = require(full_path)
+        // const config = require(full_path)
 
         const docotron_dir = path.dirname(full_path)
-        buildJson(config, docotron_dir, full_output)
+        const Docfile = buildDoc(docotron_dir)
+
+        fs.writeFileSync(full_output, Docfile.serialise())
 
     } catch(me){
         console.log(me)

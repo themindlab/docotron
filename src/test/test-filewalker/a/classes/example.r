@@ -7,6 +7,7 @@ returns: data frame with the significance attached
 "
 
 #' Add a 'sig' column to a results data frame based on error.
+#' @function addSignificance
 #' @param sf data frame of analysed results with ymin/ymax columns added. No default.
 #' @param client_stim vector of stimuli to calculate significance for. First item will be used as comparison.
 #'  No default.
