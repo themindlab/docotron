@@ -1,5 +1,6 @@
 const { expect } = require('chai')
 const path = require('path')
+const outputCompiler = require('../../output-compiler/output-compiler')
 const generator = require('../generator')
 
 describe('generator', () => {
@@ -10,6 +11,8 @@ describe('generator', () => {
 
         const doc = generator(dirpath)
 
+        const output_folder = path.join(__dirname, 'output-test')
+        outputCompiler(doc, output_folder)
         // TODO: write tests
     })
 

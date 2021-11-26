@@ -1,0 +1,192 @@
+{
+  "relative": [],
+  "is_package": false,
+  "packages": [
+    {
+      "relative": [
+        "subfolder",
+        "subsubpackage"
+      ],
+      "config": {},
+      "is_package": true,
+      "packages": [],
+      "files": [
+        {
+          "filename": "ClassF.js",
+          "filetype": "javascript",
+          "path": "E:\\the-zoo\\docotron\\src\\generate\\generate-docfile\\test\\test-folder\\subfolder\\subsubpackage\\ClassF.js",
+          "entries": [
+            {
+              "type": "class",
+              "name": "ClassF",
+              "annotations": []
+            }
+          ],
+          "relative": [
+            "subfolder",
+            "subsubpackage"
+          ]
+        },
+        {
+          "filename": "ClassG.js",
+          "filetype": "javascript",
+          "path": "E:\\the-zoo\\docotron\\src\\generate\\generate-docfile\\test\\test-folder\\subfolder\\subsubpackage\\ClassG.js",
+          "entries": [
+            {
+              "type": "class",
+              "name": "ClassG",
+              "annotations": []
+            }
+          ],
+          "relative": [
+            "subfolder",
+            "subsubpackage"
+          ]
+        },
+        {
+          "filename": "myfile.md",
+          "filetype": "markdown",
+          "path": "E:\\the-zoo\\docotron\\src\\generate\\generate-docfile\\test\\test-folder\\subfolder\\subsubpackage\\myfile.md",
+          "relative": [
+            "subfolder",
+            "subsubpackage"
+          ],
+          "ref": "24adcb54-49f8-453d-a0e4-f0d33a7bdd73.md"
+        }
+      ],
+      "path": "E:/the-zoo/docotron/src/generate/generate-docfile/test/test-folder/subfolder/subsubpackage",
+      "folder": "subfolder/subsubpackage"
+    },
+    {
+      "relative": [
+        "subpackage"
+      ],
+      "config": {},
+      "is_package": true,
+      "packages": [
+        {
+          "relative": [
+            "subpackage",
+            "subsubpackage2"
+          ],
+          "config": {},
+          "is_package": true,
+          "packages": [],
+          "files": [
+            {
+              "filename": "ClassF.js",
+              "filetype": "javascript",
+              "path": "E:\\the-zoo\\docotron\\src\\generate\\generate-docfile\\test\\test-folder\\subpackage\\subsubpackage2\\ClassF.js",
+              "entries": [
+                {
+                  "type": "class",
+                  "name": "ClassF",
+                  "annotations": []
+                }
+              ],
+              "relative": [
+                "subpackage",
+                "subsubpackage2"
+              ]
+            },
+            {
+              "filename": "ClassG.js",
+              "filetype": "javascript",
+              "path": "E:\\the-zoo\\docotron\\src\\generate\\generate-docfile\\test\\test-folder\\subpackage\\subsubpackage2\\ClassG.js",
+              "entries": [
+                {
+                  "type": "class",
+                  "name": "ClassG",
+                  "annotations": []
+                }
+              ],
+              "relative": [
+                "subpackage",
+                "subsubpackage2"
+              ]
+            }
+          ],
+          "path": "E:/the-zoo/docotron/src/generate/generate-docfile/test/test-folder/subpackage/subsubpackage2",
+          "folder": "subpackage/subsubpackage2"
+        }
+      ],
+      "files": [
+        {
+          "filename": "ClassA.js",
+          "filetype": "javascript",
+          "path": "E:\\the-zoo\\docotron\\src\\generate\\generate-docfile\\test\\test-folder\\subpackage\\ClassA.js",
+          "entries": [
+            {
+              "type": "class",
+              "name": "ClassA",
+              "annotations": []
+            }
+          ],
+          "relative": [
+            "subpackage"
+          ]
+        },
+        {
+          "filename": "ClassB.js",
+          "filetype": "javascript",
+          "path": "E:\\the-zoo\\docotron\\src\\generate\\generate-docfile\\test\\test-folder\\subpackage\\ClassB.js",
+          "entries": [
+            {
+              "type": "class",
+              "name": "ClassB",
+              "annotations": []
+            }
+          ],
+          "relative": [
+            "subpackage"
+          ]
+        }
+      ],
+      "path": "E:/the-zoo/docotron/src/generate/generate-docfile/test/test-folder/subpackage",
+      "folder": "subpackage"
+    }
+  ],
+  "files": [
+    {
+      "filename": "description.md",
+      "filetype": "markdown",
+      "path": "E:\\the-zoo\\docotron\\src\\generate\\generate-docfile\\test\\test-folder\\description.md",
+      "relative": [],
+      "ref": "3ac76829-93ea-4c44-8522-45651b3b8a8b.md"
+    },
+    {
+      "filename": "functionX.js",
+      "filetype": "javascript",
+      "path": "E:/the-zoo/docotron/src/generate/generate-docfile/test/test-folder/subfolder/functionX.js",
+      "entries": [
+        {
+          "type": "function",
+          "name": "X",
+          "annotations": []
+        }
+      ],
+      "relative": [
+        "subfolder"
+      ],
+      "folder": "subfolder"
+    },
+    {
+      "filename": "functionY.js",
+      "filetype": "javascript",
+      "path": "E:/the-zoo/docotron/src/generate/generate-docfile/test/test-folder/subfolder/functionY.js",
+      "entries": [
+        {
+          "type": "function",
+          "name": "Y",
+          "annotations": []
+        }
+      ],
+      "relative": [
+        "subfolder"
+      ],
+      "folder": "subfolder"
+    }
+  ],
+  "path": "E:/the-zoo/docotron/src/generate/generate-docfile/test/test-folder",
+  "folder": "test-folder"
+}
