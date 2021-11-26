@@ -36,7 +36,7 @@ const walk = (dir, doc_file) => {
     // directory structure
     const files = fs.readdirSync(dir)
     files
-        .filter(f => ['.js','.r','.py'].includes(path.extname(f).toLowerCase()))
+        .filter(f => ['.js','.r','.py'].includes())
         .forEach(f => {
             console.log(`adding: ${f}`)
             current_doc.addFile(new FileEntry(f, dir, current_doc))
