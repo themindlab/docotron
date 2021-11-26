@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:file": "mocha --reporter spec -b --exit",
+    "test:file": "mocha --reporter spec --exit",
     "build_example": "node ./src/index.js generate ./example/.docotron.json ./output",
     "start_example": "webpack serve --config ./src/app/webpack.config.js --mode development"
   },

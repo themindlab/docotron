@@ -23,8 +23,8 @@ describe('comment parsing' , () => {
                 @method handeAction          
                 @random_annot sduper
             `
-            const child_item = new DocItem(c)
-            doc_item.addChild(child_item)
+            // const child_item = new DocItem(c)
+            // doc_item.addChild(child_item)
         })
 
         it('should serialise', () => {
