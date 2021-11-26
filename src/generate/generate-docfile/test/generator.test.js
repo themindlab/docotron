@@ -10,8 +10,7 @@ describe('generator', () => {
 
         const doc = generator(dirpath)
 
-        console.log(doc)
-
+        // TODO: write tests
     })
 
 

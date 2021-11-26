@@ -4,8 +4,6 @@ module.exports = pre_doc => {
 
     const walkFlatten = d => {
         
-        console.log(`flattening package ${d.relative.join('/')}`)
-
         const flatCodeFiles = (cf, parent_folder) => ({
             ...cf, relative: parent_folder.relative
         })

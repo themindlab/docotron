@@ -1,7 +1,0 @@
-{
-    "title": "Module B",
-    "markdown": [
-        { "title": "introduction", "path": "./intro.md"},
-        { "title": "described", "path": "./description.md"}
-    ]
-}

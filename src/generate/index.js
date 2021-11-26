@@ -8,7 +8,6 @@ module.exports = function(config_path, output_path){
         process.exit(1) 
     } 
     
-    
     try {
         const full_path = path.join(process.cwd(), config_path)
         const full_output = path.join(process.cwd(), output_path)
@@ -19,6 +18,7 @@ module.exports = function(config_path, output_path){
         // const config = require(full_path)
 
         const docotron_dir = path.dirname(full_path)
+
         const Docfile = buildDoc(docotron_dir)
 
         fs.writeFileSync(full_output, Docfile.serialise())
