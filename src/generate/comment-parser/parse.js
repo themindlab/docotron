@@ -5,7 +5,13 @@ const validateAnnotations = require("./validate-annotations")
 
 module.exports = function(comment){
 
+    
     const { description, text_entries } = findAnnotations(comment)
+    
+    if(!text_entries){
+        return { description }
+    }
+
     const annotations = parseAnnotations(text_entries)
     
     const err = validateAnnotations(annotations)

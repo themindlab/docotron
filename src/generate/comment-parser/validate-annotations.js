@@ -53,14 +53,19 @@ const uniqueParams = annotations => {
 
 
 const incompatible_annotations = {
-    'class': ['return','param']
+    'class': ['return','param'],
+    '_contructor': ['return']
 }
 
 const incompatible = annotations => {
 
     const type = getAnnotationType(annotations)
+    let lookup_type = type
+    if(type == 'constructor'){
+        lookup_type = '_constructor'
+    }
 
-    const incompatible = incompatible_annotations[type]
+    const incompatible = incompatible_annotations[lookup_type]
 
     if(incompatible){
         for(let ic of incompatible){

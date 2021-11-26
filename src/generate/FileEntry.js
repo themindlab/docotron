@@ -58,7 +58,7 @@ class FileDoc {
                 current_class = et
             } else if(et.type ==='constructor') {
                 if(!current_class){ throw new Error('constructor without class')}
-                current_class._constructor = et
+                current_class.constructor = et
             } else if(et.type ==='staticmethod') {
                 if(!current_class){ throw new Error('staticmethod without class')}
                 if(!current_class.static_methods){
