@@ -3,6 +3,7 @@ const dirWalker = require('../directory-walker')
 const aggregatePackages = require('./aggregate-packages')
 const flattenFiles = require('./flatten-files')
 const path = require('path')
+
 module.exports = function(dirpath){
 
     let dir_objects = []

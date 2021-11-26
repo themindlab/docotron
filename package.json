@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha src/**/*.test.js --reporter spec --exit",
     "test:file": "mocha --reporter spec --exit",
-    "build_example": "node ./src/index.js generate ./example/.docotron.json ./output",
+    "build_example": "node ./src/index.js generate ./example ./output",
     "start_example": "webpack serve --config ./src/app/webpack.config.js --mode development"
   },
   "keywords": [],

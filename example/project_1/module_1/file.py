@@ -2,7 +2,7 @@
 
 """
     !docotron: class
-    @name: PythonClass
+    @name PythonClass
 """
 class PythonClass:
 

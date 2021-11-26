@@ -1,1 +1,1 @@
-module.exports = require('output-compiler')
+module.exports = require('./output-compiler')

@@ -1,4 +1,3 @@
-const { JavascriptModulesPlugin } = require("webpack")
 const { getAnnotationType, findAnnotations, findParams } = require("./annotations-utils")
 
 
@@ -7,21 +6,24 @@ module.exports = annotations => {
 
     const type = getAnnotationType(annotations)
 
+    let base_annotation = []
+    let entry;
     if(!type){
-        throw new Error('cannot handle unknow annotations')
+        entry = { type: undefined }
+    } else {
+        base_annotation = findAnnotations(annotations, type)[0]
+        entry = {
+            type,
+            ...base_annotation[1]
+        }
     }
 
-    const base_annotation = findAnnotations(annotations, type)[0]
-    let entry = {
-        type,
-        ...base_annotation[1]
-    }
 
     const params = findParams(annotations)
     if(params.length > 0){ entry.params = params }
 
     const returns = findAnnotations(annotations, 'return')
-    if(returns.lenght > 0){ entry.returns = returns[0] }
+    if(returns.length > 0){ entry.returns = returns[0] }
 
     const handled = [base_annotation]
         .concat(params)

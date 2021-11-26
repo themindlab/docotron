@@ -1,0 +1,218 @@
+{
+  "relative": [],
+  "config": {
+    "modules": [
+      {
+        "path": "./README.md"
+      },
+      {
+        "src": "./facts.html"
+      }
+    ]
+  },
+  "is_package": true,
+  "packages": [
+    {
+      "relative": [
+        "project_1"
+      ],
+      "config": {
+        "type": "module",
+        "pages": [
+          {
+            "src": "./README.md",
+            "title": "overview"
+          }
+        ]
+      },
+      "is_package": true,
+      "packages": [],
+      "files": [
+        {
+          "filename": "file.js",
+          "filetype": "javascript",
+          "path": "E:/the-zoo/docotron/example/project_1/module_1/file.js",
+          "entries": [],
+          "relative": [
+            "project_1",
+            "module_1"
+          ],
+          "folder": "project_1/module_1"
+        },
+        {
+          "filename": "file.py",
+          "filetype": "python",
+          "path": "E:/the-zoo/docotron/example/project_1/module_1/file.py",
+          "entries": [
+            {
+              "annotations": [
+                {
+                  "name": "PythonClass"
+                }
+              ],
+              "description": "!docotron: class"
+            },
+            {
+              "description": "DOCOTRON:: constructor"
+            },
+            {
+              "description": "DOCOTRON:: classmethod\r\nNAME:: super"
+            }
+          ],
+          "relative": [
+            "project_1",
+            "module_1"
+          ],
+          "folder": "project_1/module_1"
+        },
+        {
+          "filename": "README.md",
+          "filetype": "markdown",
+          "path": "E:/the-zoo/docotron/example/project_1/module_1/README.md",
+          "relative": [
+            "project_1",
+            "module_1"
+          ],
+          "folder": "project_1/module_1",
+          "ref": "74240684-de0c-4353-a297-093edb048c22.md"
+        }
+      ],
+      "path": "E:/the-zoo/docotron/example/project_1",
+      "folder": "project_1"
+    },
+    {
+      "relative": [
+        "project_3"
+      ],
+      "config": {
+        "type": "package",
+        "description": {
+          "src": "./README.md",
+          "files": "./R"
+        }
+      },
+      "is_package": true,
+      "packages": [],
+      "files": [
+        {
+          "filename": "README.md",
+          "filetype": "markdown",
+          "path": "E:\\the-zoo\\docotron\\example\\project_3\\README.md",
+          "relative": [
+            "project_3"
+          ],
+          "ref": "66ad3e57-b615-4280-b450-2aeed02177ba.md"
+        },
+        {
+          "filename": "addSignificance.r",
+          "filetype": "r",
+          "path": "E:/the-zoo/docotron/example/project_3/R/addSignificance.r",
+          "entries": [
+            {
+              "params": [
+                [
+                  "param",
+                  {
+                    "name": "sf",
+                    "description": "data frame of analysed results with ymin/ymax columns added. No default."
+                  }
+                ],
+                [
+                  "param",
+                  {
+                    "name": "client_stim",
+                    "description": "vector of stimuli to calculate significance for. First item will be used as comparison.\r\nNo default."
+                  }
+                ]
+              ],
+              "annotations": [
+                {
+                  "export": ""
+                }
+              ],
+              "description": "Add a 'sig' column to a results data frame based on error."
+            }
+          ],
+          "relative": [
+            "project_3",
+            "R"
+          ],
+          "folder": "project_3/R"
+        },
+        {
+          "filename": "addWeights.r",
+          "filetype": "r",
+          "path": "E:/the-zoo/docotron/example/project_3/R/addWeights.r",
+          "entries": [
+            {
+              "params": [
+                [
+                  "param",
+                  {
+                    "name": "context",
+                    "description": "context frame, which will contain the columns which you wish to weight the data on. No default."
+                  }
+                ],
+                [
+                  "param",
+                  {
+                    "name": "df",
+                    "description": "data.frame you want to add weights too. No default."
+                  }
+                ],
+                [
+                  "param",
+                  {
+                    "name": "colnames",
+                    "description": "the name of the columns in the context you wish to produce weights for, they need to have the same name as the column in the context frame.\r\nfor example, colnames = c(\"gender\", \"age_groups\"). No default."
+                  }
+                ],
+                [
+                  "param",
+                  {
+                    "name": "...",
+                    "description": "the vectors containing the ideal proportions of each category, for example, gender = c(0.5, 0.5) or age = c(0.25, 0.5, 0.25). No default."
+                  }
+                ]
+              ],
+              "annotations": [
+                {
+                  "export": ""
+                }
+              ],
+              "description": "Add weights to context and data frame"
+            }
+          ],
+          "relative": [
+            "project_3",
+            "R"
+          ],
+          "folder": "project_3/R"
+        }
+      ],
+      "path": "E:/the-zoo/docotron/example/project_3",
+      "folder": "project_3"
+    }
+  ],
+  "files": [
+    {
+      "filename": "README.md",
+      "filetype": "markdown",
+      "path": "E:\\the-zoo\\docotron\\example\\README.md",
+      "relative": [],
+      "ref": "fdc67795-b31c-4073-93e1-cfad49a38760.md"
+    },
+    {
+      "filename": "README.md",
+      "filetype": "markdown",
+      "path": "E:/the-zoo/docotron/example/project_2/README.md",
+      "relative": [
+        "project_2"
+      ],
+      "folder": "project_2",
+      "ref": "980ee2dd-7d1e-46a1-8fa8-b44dd0251205.md"
+    }
+  ],
+  "path": "E:/the-zoo/docotron/example",
+  "folder": "example"
+}

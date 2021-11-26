@@ -4,7 +4,6 @@ const rimraf = require('rimraf')
 const uuid = require('uuid')
 module.exports = (docfile, output_folder) => {
 
-    
     // step 1. rewrite markdown files deleting folder and updating refs
     const markdown_folder = path.join(output_folder,'markdown')
     rimraf.sync(markdown_folder)
