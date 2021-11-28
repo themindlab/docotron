@@ -2,15 +2,19 @@
   "name": "docotron",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "mocha src/**/*.test.js --reporter spec --exit",
     "test:file": "mocha --reporter spec --exit",
     "build_example": "node ./src/index.js generate ./example ./output",
     "start_example": "webpack serve --config ./src/app/webpack.config.js --mode development"
   },
-  "keywords": [],
-  "author": "",
+  "preferGlobal": true,
+  "bin": {
+    "doctoron": "./bin/index.js"
+  },
+  "keywords": ["documentation"],
+  "author": "joe@themindlab.co.uk",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.0",

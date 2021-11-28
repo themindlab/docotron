@@ -2,7 +2,7 @@ const { expect } = require('chai')
 const path = require('path')
 const directoryWalker = require('../directory-walker')
 
-describe('director-walker', () => {
+describe('directory-walker', () => {
     
     let callbacks = []
     let root = path.join(__dirname, 'test-dir')

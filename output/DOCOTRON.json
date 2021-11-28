@@ -74,7 +74,7 @@
             "module_1"
           ],
           "folder": "project_1/module_1",
-          "ref": "74240684-de0c-4353-a297-093edb048c22.md"
+          "ref": "5106bef7-7434-4149-8775-f83f970580ab.md"
         }
       ],
       "path": "E:/the-zoo/docotron/example/project_1",
@@ -101,7 +101,7 @@
           "relative": [
             "project_3"
           ],
-          "ref": "66ad3e57-b615-4280-b450-2aeed02177ba.md"
+          "ref": "40f87668-bf4f-4b42-b7e3-de2855a0e996.md"
         },
         {
           "filename": "addSignificance.r",
@@ -200,7 +200,7 @@
       "filetype": "markdown",
       "path": "E:\\the-zoo\\docotron\\example\\README.md",
       "relative": [],
-      "ref": "fdc67795-b31c-4073-93e1-cfad49a38760.md"
+      "ref": "838bf5d4-1d29-404f-b036-5fc5bcf2f96f.md"
     },
     {
       "filename": "README.md",
@@ -210,7 +210,7 @@
         "project_2"
       ],
       "folder": "project_2",
-      "ref": "980ee2dd-7d1e-46a1-8fa8-b44dd0251205.md"
+      "ref": "dcc6cc53-9141-4a10-baac-a8e05a0accd8.md"
     }
   ],
   "path": "E:/the-zoo/docotron/example",

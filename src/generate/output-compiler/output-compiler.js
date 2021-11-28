@@ -26,7 +26,6 @@ module.exports = (docfile, output_folder) => {
 
     docfile = rewriteMarkdowns(docfile)
 
-    console.log(docfile)
 
     // step 2. write the doc file
     fs.writeFileSync(
